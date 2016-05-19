@@ -1,5 +1,5 @@
 ﻿var assert = require("assert");
-var simple = require("../src/Simple");
+var simple = require("../Scripts/Simple");
 var simpleObject = new simple();
 describe("Simple Tests", function () {
     describe("Constructor Test", function () {

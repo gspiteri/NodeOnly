@@ -34,10 +34,12 @@
     <Compile Include="server.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
-    <Content Include="Tests\simple.test.js" />
+    <Content Include="Test\simple.test.js">
+      <TestFramework>Mocha</TestFramework>
+    </Content>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Tests\" />
+    <Folder Include="Test\" />
     <Folder Include="Scripts\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->

@@ -4,16 +4,16 @@
   "description": "nodeunittests",
   "main": "server.js",
   "author": {
-    "name": "gspiteri",
-    "email": ""
+    "email": "gdspiteri@gmail.com",
+    "name": "gspiteri"
   },
   "devDependencies": {
-    "assert": "1.3.0",
-    "mocha": "2.3.4"
+    "assert": "*",
+    "mocha": "*"
   },
   "scripts": {
     "run": "node server.js",
     "watch": "mocha --recursive -R min --watch",
-    "test": "mocha --recursive"
+    "test": "./node_modules/.bin/mocha --recursive -R xunit test/ > test-reports.xml"
   }
 }

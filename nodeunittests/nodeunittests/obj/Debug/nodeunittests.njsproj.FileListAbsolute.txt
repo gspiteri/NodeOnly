@@ -1,0 +1,2 @@
+F:\Code\NodeOnly\nodeunittests\nodeunittests\obj\Debug\nodeunittests.njsprojResolveAssemblyReference.cache
+F:\Code\NodeOnly\nodeunittests\nodeunittests\bin\Microsoft.NodejsTools.WebRole.dll
